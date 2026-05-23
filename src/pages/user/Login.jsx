@@ -12,7 +12,7 @@ import "swiper/css/effect-fade";
 const API_BASE =
   window.location.hostname === "localhost"
     ? "http://localhost:7000"
-    : "https://risezonictravel.com"; // Live hone par ye kaam aayega
+    : "https://www.risezonictravel.com"; // Live hone par ye kaam aayega
 
 export default function LoginPage() {
   const navigate = useNavigate();
