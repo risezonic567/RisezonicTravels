@@ -546,8 +546,7 @@ Honeymoon planning is one of the many exciting, newlywed experiences. Fortunatel
     canonical:
       "https://www.risezonictravel.com/blog/best-international-places-to-visit-from-india-in-2026",
 
-    title:
-      "BEST INTERNATIONAL PLACES TO VISIT FROM INDIA IN 2026",
+    title: "BEST INTERNATIONAL PLACES TO VISIT FROM INDIA IN 2026",
     category: "International Travel",
     date: "2026-05-22",
     author: "Risezonic Travel Team",
