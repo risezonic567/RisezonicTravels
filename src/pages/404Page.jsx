@@ -37,7 +37,7 @@ export default function NotFoundPage() {
 
       <p className="text-sm text-gray-400 mt-4">
         Redirecting To Homepage in {""}
-        <span className="font-semibold">{second} seconds...</span>
+        <span className="font-semibold">{second} seconds..</span>
       </p>
 
       <button
