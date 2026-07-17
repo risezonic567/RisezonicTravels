@@ -15,12 +15,12 @@ export default function Navbar() {
     { name: 'Book Flights', path: '/flights' },
     { name: 'Corporate Travels', path: '/corporate-travel' },
     {
-      name: 'Packages',
-      submenu: [
-        { name: 'Domestic Packages', path: '/packages/domestic' },
-        { name: 'International Packages', path: '/packages/international' },
-        { name: 'Honeymoon Packages', path: '/packages/honeymoon' },
-      ]
+      name: 'Packages',path:'/package'
+      // submenu: [
+      //   { name: 'Domestic Packages', path: '/packages/domestic' },
+      //   { name: 'International Packages', path: '/packages/international' },
+      //   { name: 'Honeymoon Packages', path: '/packages/honeymoon' },
+      // ]
     },
     { name: 'Hotels', path: '/hotels' },
     { name: 'Car', path: '/car' },

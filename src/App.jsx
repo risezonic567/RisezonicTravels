@@ -20,10 +20,13 @@ import CorporateTravel from './components/CorporateTravel/CorporateTravel'
 import Flights from './pages/Flights'
 import LoginPage from './pages/user/Login'
 import Signup from './pages/user/Singup'
-// import Blogs from './pages/Blogs'
 import PostDetail from './pages/PostDetail'
 import BlogPage from './pages/BlogPage'
 import Blogs from './pages/Blogs'
+import PackagePage from './pages/PackagePage'
+import PackageDetails from './pages/Destinations/PackageDetailsPage'
+
+
 
 export default function App() {
   return (
@@ -57,7 +60,12 @@ export default function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog" element={<BlogPage/>}/>
         <Route path="/blog/:slug" element={<PostDetail />} />
-        
+
+      <Route path="/package" element={<PackagePage />} />
+       
+      <Route path="/package/:slug" element={<PackageDetails />} />
+      
+
       </Routes>
       <Footer/>
     </BrowserRouter>
