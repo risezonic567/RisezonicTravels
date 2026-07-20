@@ -9,8 +9,8 @@ export default function Footer() {
         {name:"Home",path:"/"}, 
         {name:"About US",path:"/about-us"},
         {name:"Book Flight",path:"/flights"},
-        {name:"Corporate Travels",path:"/corporate-travels"},
-        {name:"Packages",path:"/packages"},
+        {name:"Corporate Travels",path:"/corporate-travel"},
+        {name:"Packages",path:"/package"},
         {name:"Hotels",path:"/hotels"},
         {name:"Car",path:"/car"},
       ]
