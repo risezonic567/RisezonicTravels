@@ -32,6 +32,7 @@ export default function Footer() {
         {name:"Contact: +91 81788 57250, +91 85888 09690",path:"/contact-us"},
         {name:"Delhi Office: RZ11/D, Upper Ground Floor Opp. Palam Metro Station Gate No 3, Palam Dwarka Road, Delhi, 110045"},
         {name:"Gurgaon Office : 07th Floor, Gate No 3 & 4, Ambience Island, DLF Phase 3, NH-8, Gurugram, Haryana 122002"},
+        {name:"venture of Krad Global EXiM,272 GF Sector 38 Gurgaon, HR 122001"},
         {name:"Email : info@risezonic.com "}
       ]
     }
