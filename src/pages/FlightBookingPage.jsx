@@ -3,10 +3,14 @@ import FlightSearchBox from './FlightSearchBox'
 import FaqFlightPage from './FaqFlightPage'
 import PopularRoutes from '../components/PopularRoute'
 import Testimonials from '../components/Testimonial'
+import { Helmet } from 'react-helmet'
 
 export default function FlightBooking() {
   return (
     <>
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/flights" />
+    </Helmet>
       <div className="relative w-full h-screen overflow-visible">
             
             <video

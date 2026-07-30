@@ -3,10 +3,14 @@ import ServicesCarPage from './ServicesCar'
 import CarDestination from './Destinations/CarDestinations'
 import FaqFlightPage from './FaqFlightPage'
 import Testimonials from '../components/Testimonial'
+import { Helmet } from 'react-helmet'
 
 export default function CarPage() {
   return (
     <>
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/car" />
+    </Helmet>
     <section className="relative min-h-screen w-full font-sans antialiased">
 
       <div className="absolute inset-0 z-0">

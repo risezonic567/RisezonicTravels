@@ -3,6 +3,7 @@ import { Users, Gift, Presentation, Globe, CheckCircle2, Send } from 'lucide-rea
 import { motion, AnimatePresence } from 'framer-motion';
 import CorporateAbout from './CorporateAbout';
 import ImagelPage from './CorporateTravelImg';
+import { Helmet } from 'react-helmet';
 
 const CorporateTravel = () => {
     const slides = [
@@ -57,6 +58,11 @@ const CorporateTravel = () => {
   },[])
 
   return (
+    <>
+    
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/corporate-travel" />
+    </Helmet>
     <div className="bg-white font-sans text-slate-900">
     
        <div className="relative h-screen w-full overflow-hidden bg-black">
@@ -164,6 +170,7 @@ const CorporateTravel = () => {
       <CorporateAbout/>
       <ImagelPage/>
     </div>
+    </>
   );
 };
 

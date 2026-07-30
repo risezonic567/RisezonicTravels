@@ -1,8 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 export default function RefundPolicy() {
   return (
+    <>
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/refund-policy" />
+    </Helmet>
     <div className=' bg-gray-100 px-4 sm:px-6 md:px-8 py-8 md:py-10 mt-28 mb-5 max-w-5xl mx-auto space-y-6'>
       <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center'>Refund Policy</h1>
       <hr/>
@@ -88,5 +93,6 @@ Refund eligibility depends on the following:
         </p >
         <p className='text-base sm:text-lg text-gray-700'>All queries will be addressed within 1- 2 business days.</p>
     </div>
+    </>
   )
 }

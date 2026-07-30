@@ -13,6 +13,7 @@ import {
 import HotelDestinationPage from "./Destinations/HotelDestinations";
 import Testimonials from "../components/Testimonial";
 import WhyChooseUsHotel from "./WhyChooseUsHotel";
+import { Helmet } from "react-helmet";
 
 const formatDate = (date) => {
   return date.toLocaleDateString("en-GB", {
@@ -81,6 +82,9 @@ export default function HotelPage() {
 
   return (
     <>
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/hotels" />
+    </Helmet>
     <div className="relative min-h-screen flex items-center justify-center p-4">
       {/* <video
         autoPlay loop muted playsInline

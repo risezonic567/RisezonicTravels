@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Globe, Plane, ShieldCheck, Users } from 'lucide-react';
 import Testimonials from '../components/Testimonial';
+import { Helmet } from 'react-helmet';
 
 const slides = [
   {
@@ -42,6 +43,10 @@ export default function HeroSection () {
 
   return (
     <>
+    <Helmet>
+
+      <link rel="conanical" href="https://risezonictravel.com/about-us" />
+    </Helmet>
     <div className="relative h-screen w-full overflow-hidden bg-black">
       <AnimatePresence mode="wait">
         <motion.div

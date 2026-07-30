@@ -5,11 +5,16 @@ import FlightDestination from "./Destinations/FlightDestination";
 import FlightFAQ from "./FaqPage";
 import WhyChooseUs from "./WhyChooseUs";
 import Testimonials from "../components/Testimonial";
+import { Helmet } from "react-helmet";
 
 
 export default function HomePage() {
   return (
     <>
+    <Helmet>
+        <link rel="conanical" href="https://risezonictravel.com/"/>
+    </Helmet>
+
     <div className="relative w-full h-screen overflow-visible">
       
       <video

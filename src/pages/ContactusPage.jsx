@@ -1,7 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 export default function ContactPage() {
   return (
+    <>
+    <Helmet>
+      <link rel="conanical" href="https://risezonictravel.com/contact-us" />
+    </Helmet>
     <div className=" mt-20 bg-gray-50 flex flex-col items-center justify-center p-6">
       <div className="text-center mb-12">
         {/* <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">
@@ -145,5 +150,6 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
