@@ -9,7 +9,7 @@ export default function FlightBooking() {
   return (
     <>
     <Helmet>
-      <link rel="conanical" href="https://risezonictravel.com/flights" />
+      <link rel="canonical" href="https://risezonictravel.com/flights" />
     </Helmet>
       <div className="relative w-full h-screen overflow-visible">
             

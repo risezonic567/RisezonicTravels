@@ -9,7 +9,7 @@ export default function CarPage() {
   return (
     <>
     <Helmet>
-      <link rel="conanical" href="https://risezonictravel.com/car" />
+      <link rel="canonical" href="https://risezonictravel.com/car" />
     </Helmet>
     <section className="relative min-h-screen w-full font-sans antialiased">
 

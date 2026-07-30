@@ -45,7 +45,7 @@ export default function HeroSection () {
     <>
     <Helmet>
 
-      <link rel="conanical" href="https://risezonictravel.com/about-us" />
+      <link rel="canonical" href="https://risezonictravel.com/about-us" />
     </Helmet>
     <div className="relative h-screen w-full overflow-hidden bg-black">
       <AnimatePresence mode="wait">

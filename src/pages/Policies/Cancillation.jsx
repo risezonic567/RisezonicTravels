@@ -5,7 +5,7 @@ export default function Cancillation() {
   return (
    <>
    <Helmet>
-    <link rel="conanical" href="https://risezonictravel.com/cancellation-policy" />
+    <link rel="canonical" href="https://risezonictravel.com/cancellation-policy" />
    </Helmet>
     <div className=' bg-gray-100 px-4 sm:px-6 md:px-8 py-8 md:py-10 mt-28 mb-5 max-w-5xl mx-auto space-y-6'>
       <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center'>Cancellation Policy</h1>

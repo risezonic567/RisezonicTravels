@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <>
     <Helmet>
-      <link rel="conanical" href="https://risezonictravel.com/contact-us" />
+      <link rel="canonical" href="https://risezonictravel.com/contact-us" />
     </Helmet>
     <div className=" mt-20 bg-gray-50 flex flex-col items-center justify-center p-6">
       <div className="text-center mb-12">

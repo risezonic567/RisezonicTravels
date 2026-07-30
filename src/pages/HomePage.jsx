@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <>
     <Helmet>
-        <link rel="conanical" href="https://risezonictravel.com/"/>
+        <link rel="canonical" href="https://risezonictravel.com/"/>
     </Helmet>
 
     <div className="relative w-full h-screen overflow-visible">
