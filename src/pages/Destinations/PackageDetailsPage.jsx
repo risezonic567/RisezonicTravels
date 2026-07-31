@@ -258,7 +258,7 @@ export default function PackageDetails() {
     {latestPackage.map((item) => (
       <Link
         key={item.id}
-        to={`/packages/${item.slug}`}
+        to={`/package/${item.slug}`}
         className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden group"
       >
         <img
