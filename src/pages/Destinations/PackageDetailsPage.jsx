@@ -16,6 +16,8 @@ export default function PackageDetails() {
     (item) => item.slug === slug
   );
 
+  const latestPackage = packagePosts.filter((item)=>item.id !==packageItem.id).slice(0,3)
+
   // ❌ Safety
   if (!packageItem) {
     return <div className="text-center mt-20">Package Not Found</div>;
@@ -52,7 +54,7 @@ export default function PackageDetails() {
 
           <div className="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl max-w-3xl">
             <div className="flex items-center gap-2 mb-2">
-              <span className="bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded-full flex items-center gap-1">
+              <span className="bg-green-100 text-green-800 text-xs font-bold px-2 py-1 rounded-full flex items-center gap-1">
                 <Star className="w-3 h-3 fill-current" />
                 {hero.rating}
               </span>
@@ -237,7 +239,65 @@ export default function PackageDetails() {
             ))}
           </div>
         </section>
+
+        <section className="mt-20">
+  <div className="flex justify-between items-center mb-8">
+    <h2 className="text-3xl font-bold">
+      Latest Tour Packages
+    </h2>
+
+    <Link
+      to="/packages"
+      className="text-blue-600 hover:underline"
+    >
+      View All
+    </Link>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {latestPackage.map((item) => (
+      <Link
+        key={item.id}
+        to={`/packages/${item.slug}`}
+        className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden group"
+      >
+        <img
+          src={item.image}
+          alt={item.title}
+          className="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+        />
+
+        <div className="p-5">
+          <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
+            {item.category}
+          </span>
+
+          <h3 className="text-lg font-bold mt-3 line-clamp-2">
+            {item.title}
+          </h3>
+
+          <p className="text-sm text-gray-600 mt-2 line-clamp-3">
+            {item.excerpt}
+          </p>
+
+          <div className="flex justify-between items-center mt-4">
+            <span className="text-xl font-bold">
+              ₹{item.price}
+            </span>
+
+            <span className="text-blue-600 font-medium">
+              View Details →
+            </span>
+          </div>
+        </div>
+      </Link>
+    ))}
+  </div>
+</section>
       </main>
+
+
+
     </div>
   );
 }

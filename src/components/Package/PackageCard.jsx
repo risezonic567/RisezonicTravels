@@ -21,7 +21,7 @@ export default function PackageCard({ post }) {
         </p>
 
         <Link to={`/package/${post.slug}`}>
-          <button className="mt-4 w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800">
+          <button className="mt-4 w-full cursor-pointer bg-black text-white py-2 rounded-lg hover:bg-gray-800">
             View Details
           </button>
         </Link>
