@@ -5,7 +5,6 @@ export default function PackageCard({ post }) {
   return (
     <div className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden">
 
-      {/* IMAGE */}
       <img
         src={post.image}
         alt={post.title}

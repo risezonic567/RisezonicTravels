@@ -11,7 +11,7 @@ import {
 export default function PackageDetails() {
   const { slug } = useParams();
 
-  // 🔥 Find package from slug
+
   const packageItem = packagePosts.find(
     (item) => item.slug === slug
   );
@@ -41,10 +41,9 @@ export default function PackageDetails() {
     <div className="min-h-screen mt-20 bg-[#f9fbff] text-slate-800">
       <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
 
-        {/* HERO */}
         <div className="relative w-full h-[350px] md:h-[500px] rounded-3xl overflow-hidden shadow-md mb-8">
           <img
-            src={hero.image}
+            src={hero.coverImage}
             alt={hero.title}
             className="w-full h-full object-cover"
           />
@@ -71,16 +70,16 @@ export default function PackageDetails() {
           </div>
         </div>
 
-        {/* MAIN GRID */}
         <div className="grid lg:grid-cols-3 gap-8">
 
-          {/* LEFT */}
           <div className="lg:col-span-2 space-y-10">
 
             {/* OVERVIEW */}
             <section>
               <h2 className="text-xl font-bold mb-3">Overview</h2>
-              <p className="text-gray-600">{overview}</p>
+              <div
+                dangerouslySetInnerHTML={{ __html: overview }}
+              />
             </section>
 
             {/* GALLERY */}
@@ -91,14 +90,14 @@ export default function PackageDetails() {
                   <img
                     key={i}
                     src={img}
-                    className="h-40 w-full object-cover rounded-xl"
+                    className="h-[200px] w-full bject-cover rounded-xl"
                   />
                 ))}
               </div>
             </section>
 
             {/* INCLUDED */}
-            <section>
+            {/* <section>
               <h2 className="text-xl font-bold mb-3">
                 What's Included
               </h2>
@@ -110,10 +109,10 @@ export default function PackageDetails() {
                   </div>
                 ))}
               </div>
-            </section>
+            </section> */}
 
             {/* ITINERARY */}
-            <section>
+            {/* <section>
               <h2 className="text-xl font-bold mb-3">
                 Itinerary
               </h2>
@@ -147,7 +146,7 @@ export default function PackageDetails() {
                   </div>
                 );
               })}
-            </section>
+            </section> */}
           </div>
 
           {/* RIGHT SIDEBAR */}

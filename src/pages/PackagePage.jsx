@@ -38,20 +38,12 @@ export default function PackagePage() {
         <link rel="canonical" href="https://www.risezonictravel.com/package" />
       </Helmet>
 
-     
-      {/* <div className="bg-blue-950 pt-40 pb-20 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-black text-yellow-500 mb-4">Travel Inspiration</h1>
-        <p className="text-blue-100 max-w-2xl mx-auto text-lg">
-          Expert tips, destination guides, and real travel stories to help you book your next perfect journey.
-        </p>
-      </div> */}
       <div className="bg-blue-950 pt-40 px-4 text-center">
 
       </div>
 
       <div className="max-w-7xl mt-16 mx-auto px-4 py-12">
         
-        {/* CONTROLS BAR - Sticky and Compact */}
         <div className="flex flex-col lg:flex-row gap-6 items-center justify-between bg-white p-4 rounded-2xl shadow-sm border border-gray-100 -mt-24 relative z-20 mb-12">
           
           <div className="flex gap-2 overflow-x-auto no-scrollbar max-w-full lg:max-w-xl pb-1">
@@ -67,7 +59,6 @@ export default function PackagePage() {
             ))}
           </div>
 
-          {/* Sort Dropdown with Style */}
           <div className="w-full lg:w-48">
             <select
               className="w-full px-4 py-3 bg-white border border-gray-100 rounded-xl text-sm font-bold text-gray-700 outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
