@@ -30,6 +30,7 @@ export default function PackageDetails() {
     included,
     itinerary,
     reviews,
+    pdf,
   } = packageItem;
 
   const [openDay, setOpenDay] = useState(1);
@@ -45,7 +46,7 @@ export default function PackageDetails() {
           <img
             src={hero.coverImage}
             alt={hero.title}
-            className="w-full h-full object-cover"
+            className="w-[1250px] h-[500px] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent"></div>
 
@@ -186,6 +187,19 @@ export default function PackageDetails() {
                   Book Now
                 </button>
               </Link>
+
+              {pdf && (
+                <a
+                  href={pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full mt-3"
+                >
+                  <button className="w-full border border-black text-black py-3 rounded-xl hover:bg-black hover:text-white transition">
+                    Download PDF
+                  </button>
+                </a>
+              )}
             </div>
           </div>
         </div>
