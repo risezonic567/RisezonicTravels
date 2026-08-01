@@ -18,7 +18,7 @@ export default function PackageDetails() {
 
   const latestPackage = packagePosts.filter((item)=>item.id !==packageItem.id).slice(0,3)
 
-  // ❌ Safety
+
   if (!packageItem) {
     return <div className="text-center mt-20">Package Not Found</div>;
   }

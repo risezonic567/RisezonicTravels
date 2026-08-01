@@ -11,7 +11,7 @@ export const packagePosts = [
 
     title:
       "Kashmir Tour Packages - Customized Trips & Holidays",
-    category: "Honeymoon",
+    category: "Indian Honeymoon",
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
 
@@ -99,7 +99,7 @@ export const packagePosts = [
 
     title:
       "Himachal Pradesh Tour Packages - Customized Holiday Trips",
-    category: "Honeymoon",
+    category: "Indian Honeymoon",
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -189,7 +189,7 @@ export const packagePosts = [
 
     title:
       "Kerala Tour Packages",
-    category: "Honeymoon",
+    category: "Indian Honeymoon",
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -312,7 +312,7 @@ export const packagePosts = [
 
     title:
       "Goa Tour Packages",
-    category: "Honeymoon",
+    category: "Indian Honeymoon",
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -402,6 +402,271 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
       "/Package/goa/Goa Image 1 (250x200).jpg.jpeg",
       "/Package/goa/Goa Image 2 (250x200).jpg.jpeg",
       "/Package/goa/Goa Image 3 (250x200).jpg.jpeg"
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+   {
+    id: 5,
+    slug: "uttarakhand-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/blog/uttarakhand-tour-packages",
+
+    title:
+      "Uttarakhand Tour Packages",
+    category: "Indian Honeymoon",
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "/Package/uttarakhand/Uttrakhand Banner Image (750x380).jpg.jpeg",
+    pdf:"/pdf/Uttarakhand Guide.pdf.pdf",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      " Uttarakhand is a small state that provides visitors with a diverse mix of unique offerings not found elsewhere. Scattered within this state you can find Himalayan temples, ski slopes...",
+
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Uttarakhand Tour Packages",
+      subtitle:
+        "Uttarakhand is a small state that provides visitors with a diverse mix.....",
+      coverImage:
+        "/Package/uttarakhand/Uttrakhand Banner Image (750x380).jpg.jpeg",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+      <p class="mt-5">
+      Uttarakhand is a small state that provides visitors with a diverse mix of unique offerings not found elsewhere. Scattered within this state you can find Himalayan temples, ski slopes, lakeside towns, lodges, villages, and some of India’s best rafting.
+      </p>
+      <p class="mt-5">
+      RisezonicTravel knows that some people know exactly what they want for their vacation while others have no idea. For both crowds, we have made personalized Uttarakhand vacation packages. Simply give us the details of your trip and we will fit all the details around the trip you want.
+      </p>
+      <h2 class="mt-5 font-semibold">Garhwal, Kumaon, and Why It Matters for Your Uttarakhand Trip</h2>
+      <p class="mt-5">
+      Uttarakhand, which used to be Uttaranchal and is also called Devbhumi (the Land of the Gods), is split into two regions, Garhwal in the west and Kumaon in the east. Even though there are many good itineraries that cover both regions, these two regions cater to different types of travelers with very different characters.
+      </p>
+      <p class="mt-5">
+      Garhwal is home to the major pilgrim destinations of Kedarnath, Badrinath, Gangotri, and Yamunotri. Rishikesh and Haridwar, both in Garhwal, attract more visitors than most Indian cities. Garhwal is home to the adventures of Auli skiing, the Chopta and Tungnath trek, and monsoon treks in the Valley of Flowers. Garhwal is an important and dynamic region in both a spiritual and a physical sense.
+      </p>
+      <p class="mt-5">
+      Kumaon is quieter and more literary. The lake towns—Nainital, Bhimtal, Sattal—are enclosed by oak forests and colonial-era buildings. Almora and Kausani have a slow, unhurried pace about them. Munsiyari and Dharchula are close to the borders of Nepal and Tibet, and feel genuinely remote, in the way that many of the other popular destinations, long ago, lost their remoteness. Jim Corbett National Park, residing in the foothills of Kumaon and the first National Park in India, established in 1936, is one of the best places in the country to view a Royal Bengal Tiger.
+
+      </p>
+      <p class="mt-5">
+      A good Uttarakhand itinerary will either go really deep into one of the regions, or connect the two with a sensible itinerary. Trying to cover everything in a short trip will leave you with amazing views that you are forced to glance at from a moving car.
+      </p>
+     
+       
+        `,
+
+    gallery: [
+      "/Package/uttarakhand/Uttrakhand Image 1 (250x200).jpg.jpeg",
+      "/Package/uttarakhand/Uttrakhand Image 2 (250x200).jpg.jpeg",
+      "/Package/uttarakhand/Uttrakhand Image 3 (250x200).jpg.jpeg"
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 6,
+    slug: "andaman-tour-packages-customized-holiday-trips",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/blog/andaman-tour-packages-customized-holiday-trips",
+
+    title:
+      "Andaman Tour Packages - Customized Holiday Trips",
+    category: "Indian Honeymoon",
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "/Package/andaman/Andaman Banner Image (750x380).jpg.jpeg",
+    pdf:"/pdf/Andaman Guide.pdf.pdf",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      " Andaman and Nicobar Islands are a tropical paradise in the Bay of Bengal, known for their pristine beaches, crystal-clear waters, and vibrant marine life. These islands offer a perfect blend of adventure, relaxation, and natural beauty.",
+
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Andaman Tour Packages - Customized Holiday Trips",
+      subtitle:
+        "Andaman and Nicobar Islands are a tropical paradise in the Bay of Bengal...",
+      coverImage:
+        "/Package/andaman/Andaman Banner Image (750x380).jpg.jpeg",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+      <p class="mt-5">
+      What images conjure up with lagoons, secret sandy beaches with tranquil and mirror calm waters shimmering so clear between blue skies that blend with seas? This idyllic paradise is the Andaman and Nicobar Islands and it is the real deal. 
+      </p>
+      <p class="mt-5">
+    The Andaman and Nicobar Islands are among India's most exquisite destinations. This Island cluster archipelago (in the Bay of Bengal) is comprised of over 500 islands, and offers a tantalizing array of coral reefs and lagoons teaming with life, rain forests, pristine beaches and a most interesting Colonial past. The balance of rest, relaxation, and discovery offered on the Islands attracts interest from international travelers, placing it on the world's travel itinerary.       
+      </p>
+      <p class="mt-5">
+      The right Andaman tour packages can transform your experience from a series of Island hopping chores to effortless explorations. With RisezonicTravel you get a lot of options to choose from be it family holidays, romantic getaways, and adventurous experiences. A variety of Andaman & Nicobar Islands vacation packages are available with us. You can get a jump on your Island sanctuary getaway with travel guides with top tourist attractions, local culture, local food, optimal travel season, and practical pointers and tips.
+      </p>
+       
+        `,
+
+    gallery: [
+      "/Package/andaman/Andaman Image 1 (250x200).jpg.jpeg",
+      "/Package/andaman/Andaman Image 2 (250x200).jpg.jpeg",
+      "/Package/andaman/Andaman Image 3 (250x200).jpg.jpeg"
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+   {
+    id: 7,
+    slug: "rajasthan-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/blog/rajasthan-tour-packages",
+
+    title:
+      "Rajasthan Tour Packages",
+    category: "Indian Honeymoon",
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "/Package/rajasthan/Rajasthan Banner Image (750x380).jpg.jpeg",
+    pdf:"/pdf/Rajasthan Domestic Guide.pdf.pdf",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Rajasthan is a state in India known for its rich cultural heritage, magnificent palaces, and vibrant festivals. Experience the magic of Rajasthan with our customized tour packages.",
+
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Rajasthan Tour Packages",
+      subtitle:
+        "Rajasthan is a state in India known for its rich cultural heritage...",
+      coverImage:
+        "/Package/rajasthan/Rajasthan Banner Image (750x380).jpg.jpeg",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+      <p class="mt-5">
+    One of the most colorful and vibrant states in the country, Rajasthan rightfully stands as “The Incredible State of India.” From golden sand deserts to traditional handicrafts and delectable cuisine, and possessing history that stretches beyond the entire country’s history combined, there’s so much to love about Rajasthan. Forts like Amber Fort in Jaipur and the Mehrangarh Fort in Jodhpur and many more give Rajasthan the title of the ‘Land of the Kings.’
+      </p>
+    
+       
+        `,
+
+    gallery: [
+      "/Package/rajasthan/Rajasthan Image 1 (250x200).jpg.jpeg",
+      "/Package/rajasthan/Rajasthan Image 2 (250x200).jpg.jpeg",
+      "/Package/rajasthan/Rajasthan Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
