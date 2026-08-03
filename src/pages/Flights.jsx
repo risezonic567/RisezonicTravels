@@ -50,8 +50,8 @@ const FilterSection = React.memo(({ title, children, onReset }) => (
 ));
 
 
-const API_BASE = window.location.hostname === "localhost" 
-  ? "http://localhost:7000" 
+const API_BASE = window.location.hostname === "localhost"
+  ? "http://localhost:7000"
   : "https://www.risezonictravel.com"; // Live hone par ye kaam aayega
 
 function Flights() {
@@ -123,72 +123,30 @@ function Flights() {
     }
   };
 
- const fetchFareCalendar = async () => {
-  try {
-    setIsCalendarLoading(true);
+  const fetchFareCalendar = async () => {
+    try {
+      setIsCalendarLoading(true);
 
-    const res = await axios.get(
-      // "http://localhost:7000/api/flights/fare-calendar",
-      `${API_BASE}/api/flights/fare-calendar`,
-      {
-        params: {
-          origin: from,
-          destination: to,
-          departure_date: formatLocalDate(departure),
+      const res = await axios.get(
+        // "http://localhost:7000/api/flights/fare-calendar",
+        `${API_BASE}/api/flights/fare-calendar`,
+        {
+          params: {
+            origin: from,
+            destination: to,
+            departure_date: formatLocalDate(departure),
+          },
         },
-      },
-    );
+      );
 
-    setFareCalendar(res.data.data || []);
-  } catch (err) {
-    console.log(err);
-  } finally {
-    setIsCalendarLoading(false);
-  }
-};
+      setFareCalendar(res.data.data || []);
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setIsCalendarLoading(false);
+    }
+  };
 
-  // Backend call for fare calendar
-//   const fetchCabinPrices = async () => {
-//   try {
-//     const cabinData = {};
-
-//     await Promise.all(
-//       flightsData.map(async (flight) => {
-//         try {
-//           const response = await axios.get(
-//             "http://localhost:7000/api/flights/fare-calendar",
-//             {
-//               params: {
-//                 origin: flight.slices?.[0]?.origin_code,
-//                 destination: flight.slices?.[0]?.destination_code,
-//                 departure_date: formatLocalDate(
-//   flight.slices?.[0]?.departure_time
-// ),
-//                 airline: flight.airline_name,
-//               },
-//             },
-//           );
-
-//           cabinData[flight.id || flight.total_amount] =
-//             response.data.data || [];
-//             console.log("API RESPONSE:", response.data);
-//         } catch (err) {
-//           console.log("Cabin fetch failed:", err);
-//         }
-//       }),
-//     );
-
-//     setCabinPrices(cabinData);
-//   } catch (err) {
-//     console.log(err);
-//   }
-// };
-
-  // useEffect(() => {
-  //   if (from && to && departure) {
-  //     fetchCabinPrices();
-  //   }
-  // }, [from, to, departure]);
 
   const formatCurrency = (amount) => {
     return new Intl.NumberFormat("en-IN", {
@@ -223,14 +181,14 @@ function Flights() {
         .map((f) => Number(f.total_amount));
 
       if (prices.length === 0) return null;
-      return Math.min(...prices); // Sabse sasta price us din ka
+      return Math.min(...prices)
     },
     [flightsData],
   );
 
   const getCalendarPrice = useCallback(
     (formattedDate) => {
-      if (isCalendarLoading) return null; // Loading ke waqt null dikhayein
+      if (isCalendarLoading) return null
       const dayData = fareCalendar.find((item) => item.date === formattedDate);
       return dayData ? dayData.price : getPriceForDate(formattedDate);
     },
@@ -298,16 +256,16 @@ function Flights() {
   };
 
   const formatDate = (dateInput) => {
-  if (!dateInput) return "";
+    if (!dateInput) return "";
 
-  const d = new Date(dateInput);
+    const d = new Date(dateInput);
 
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, "0");
-  const day = String(d.getDate()).padStart(2, "0");
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
 
-  return `${year}-${month}-${day}`;
-};
+    return `${year}-${month}-${day}`;
+  };
 
 
 
@@ -354,7 +312,7 @@ function Flights() {
 
       if (!departureTime) return;
 
-      // LOCAL DATE FORMAT
+
       const localDate = formatLocalDate(new Date(departureTime));
 
       const price = Number(flight.total_amount);
@@ -385,7 +343,6 @@ function Flights() {
     return dates;
   }, [departure]);
 
-  // FlightCard ke andar sirf uss specific airline/flight ka price dikhayein
   const getPriceForSpecificFlight = (date, airlineName) => {
     const price = flightsData.find(
       (f) =>
@@ -565,7 +522,7 @@ function Flights() {
 
   return (
     <div className="bg-[#f2f2f2] min-h-screen font-sans mt-20 px-2 md:px-0">
-      {/* Trip Type Tabs */}
+
       <div className="flex bg-gray-200/50 p-1 rounded-xl w-fit mb-6 mx-auto md:mx-0">
         {["oneway", "round"].map((type) => (
           <button
@@ -582,7 +539,7 @@ function Flights() {
         ))}
       </div>
 
-      {/* --- RESPONSIVE SEARCH BOX --- */}
+
       <div className="sticky top-0 z-40 bg-[#f2f2f2] py-2">
         <div className="max-w-[1220px] mx-auto bg-white rounded-2xl md:rounded-[3rem] p-2 md:p-0 shadow-xl border border-gray-100 overflow-visible">
           <form
@@ -718,7 +675,7 @@ function Flights() {
               )}
             </div>
 
-            {/* RETURN */}
+       
             <div
               ref={retRef}
               onClick={() => tripType === "round" && setShowRetCal(!showRetCal)}
@@ -730,9 +687,9 @@ function Flights() {
               <div className="text-xs md:text-xl font-black">
                 {tripType === "round" && returnDate
                   ? returnDate.toLocaleDateString("en-GB", {
-                      day: "2-digit",
-                      month: "short",
-                    })
+                    day: "2-digit",
+                    month: "short",
+                  })
                   : "— —"}
               </div>
               {showRetCal && (
@@ -752,7 +709,7 @@ function Flights() {
               )}
             </div>
 
-            {/* TRAVELLERS */}
+       
             <div
               ref={travRef}
               onClick={() => setShowTravellers(!showTravellers)}
@@ -865,7 +822,7 @@ function Flights() {
         </div>
       </div>
 
-      {/* --- REST OF THE PAGE --- */}
+      
       <div className="max-w-[1250px] mx-auto py-10 grid grid-cols-1 md:grid-cols-12 gap-6">
         {/* Sidebar Filters */}
         <aside
@@ -1050,20 +1007,18 @@ const FlightCard = React.memo(
                       <div
                         key={d.formatted}
                         className={`flex-shrink-0 min-w-[100px] p-2 rounded-lg border text-center transition-all 
-                        ${
-                          isSelected
+                        ${isSelected
                             ? "border-blue-600 bg-blue-50"
                             : "border-gray-200 bg-white"
-                        }`}
+                          }`}
                       >
                         <p className="text-[10px] font-bold text-gray-500 uppercase">
                           {d.display}
                         </p>
 
                         <p
-                          className={`text-sm font-bold ${
-                            price ? "text-blue-700" : "text-gray-300"
-                          }`}
+                          className={`text-sm font-bold ${price ? "text-blue-700" : "text-gray-300"
+                            }`}
                         >
                           {price ? formatCurrency(price) : "N/A"}
                         </p>

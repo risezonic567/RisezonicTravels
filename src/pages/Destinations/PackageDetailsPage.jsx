@@ -16,14 +16,13 @@ export default function PackageDetails() {
     (item) => item.slug === slug
   );
 
-  const latestPackage = packagePosts.filter((item)=>item.id !==packageItem.id).slice(0,3)
+  const latestPackage = packagePosts.filter((item) => item.id !== packageItem.id).slice(0, 3)
 
 
   if (!packageItem) {
     return <div className="text-center mt-20">Package Not Found</div>;
   }
 
-  // 🔥 Destructure
   const {
     hero,
     price,
@@ -206,7 +205,6 @@ export default function PackageDetails() {
           </div>
         </div>
 
-        {/* REVIEWS */}
         <section className="mt-16">
           <h2 className="text-3xl font-bold mb-6">
             Reviews
@@ -241,62 +239,60 @@ export default function PackageDetails() {
         </section>
 
         <section className="mt-20">
-  <div className="flex justify-between items-center mb-8">
-    <h2 className="text-3xl font-bold">
-      Latest Tour Packages
-    </h2>
+          <div className="flex justify-between items-center mb-8">
+            <h2 className="text-3xl font-bold">
+              Latest Tour Packages
+            </h2>
 
-    <Link
-      to="/packages"
-      className="text-blue-600 hover:underline"
-    >
-      View All
-    </Link>
-  </div>
-
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {latestPackage.map((item) => (
-      <Link
-        key={item.id}
-        to={`/package/${item.slug}`}
-        className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden group"
-      >
-        <img
-          src={item.image}
-          alt={item.title}
-          className="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
-        />
-
-        <div className="p-5">
-          <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
-            {item.category}
-          </span>
-
-          <h3 className="text-lg font-bold mt-3 line-clamp-2">
-            {item.title}
-          </h3>
-
-          <p className="text-sm text-gray-600 mt-2 line-clamp-3">
-            {item.excerpt}
-          </p>
-
-          <div className="flex justify-between items-center mt-4">
-            <span className="text-xl font-bold">
-              ₹{item.price}
-            </span>
-
-            <span className="text-blue-600 font-medium">
-              View Details →
-            </span>
+            <Link
+              to="/package"
+              className="text-blue-600 hover:underline"
+            >
+              View All
+            </Link>
           </div>
-        </div>
-      </Link>
-    ))}
-  </div>
-</section>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {latestPackage.map((item) => (
+              <Link
+                key={item.id}
+                to={`/package/${item.slug}`}
+                className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden group"
+              >
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+                />
+
+                <div className="p-5">
+                  <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">
+                    {item.categories}
+                  </span>
+
+                  <h3 className="text-lg font-bold mt-3 line-clamp-2">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-sm text-gray-600 mt-2 line-clamp-3">
+                    {item.excerpt}
+                  </p>
+
+                  <div className="flex justify-between items-center mt-4">
+                    <span className="text-xl font-bold">
+                      ₹{item.price}
+                    </span>
+
+                    <span className="text-blue-600 font-medium">
+                      View Details →
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
       </main>
-
-
 
     </div>
   );
