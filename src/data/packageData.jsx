@@ -11,7 +11,7 @@ export const packagePosts = [
 
     title:
       "Kashmir Tour Packages - Customized Trips & Holidays",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
 
@@ -99,7 +99,7 @@ export const packagePosts = [
 
     title:
       "Himachal Pradesh Tour Packages - Customized Holiday Trips",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -189,7 +189,7 @@ export const packagePosts = [
 
     title:
       "Kerala Tour Packages",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -312,7 +312,7 @@ export const packagePosts = [
 
     title:
       "Goa Tour Packages",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -434,7 +434,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Uttarakhand Tour Packages",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -532,7 +532,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Andaman Tour Packages - Customized Holiday Trips",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -618,7 +618,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Rajasthan Tour Packages",
-    categories: ["Indian Honeymoon"],
+    categories: ["Indian Honeymoon","Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -1102,7 +1102,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/maldievs/Maldives Banner Image (750x380).jpg.jpeg",
     pdf: "/pdf/Maldives Guide.pdf",
 
     tags: [
@@ -1169,9 +1169,9 @@ Here are some facts for travelers to consider before making the trip to Singapor
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/maldievs/Maldives Image 1 (250x200).jpg.jpeg",
+      "/Package/maldievs/Maldives Image 2 (250x200).jpg.jpeg",
+      "/Package/maldievs/Maldives Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1212,7 +1212,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/thailand/Thiland Banner Image (750x380).jpg.jpeg",
     pdf: "/pdf/Thailand Guide.pdf.pdf",
 
     tags: [
@@ -1232,7 +1232,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
       subtitle:
         "Thailand has become a popular destination for Indian travellers for good reason.....",
       coverImage:
-        "",
+        "/Package/thailand/Thiland Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1277,9 +1277,9 @@ Here are some facts for travelers to consider before making the trip to Singapor
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/thailand/Thiland Image 1 (250x200).jpg.jpeg",
+      "/Package/thailand/Thiland Image 2 (250x200).jpg.jpeg",
+      "/Package/thailand/Thiland Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
