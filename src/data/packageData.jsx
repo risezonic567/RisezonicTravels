@@ -11,7 +11,7 @@ export const packagePosts = [
 
     title:
       "Kashmir Tour Packages - Customized Trips & Holidays",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
 
@@ -99,7 +99,7 @@ export const packagePosts = [
 
     title:
       "Himachal Pradesh Tour Packages - Customized Holiday Trips",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -189,7 +189,7 @@ export const packagePosts = [
 
     title:
       "Kerala Tour Packages",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -312,7 +312,7 @@ export const packagePosts = [
 
     title:
       "Goa Tour Packages",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -434,7 +434,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Uttarakhand Tour Packages",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -493,7 +493,6 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
       A good Uttarakhand itinerary will either go really deep into one of the regions, or connect the two with a sensible itinerary. Trying to cover everything in a short trip will leave you with amazing views that you are forced to glance at from a moving car.
       </p>
      
-       
         `,
 
     gallery: [
@@ -532,7 +531,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Andaman Tour Packages - Customized Holiday Trips",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -618,7 +617,7 @@ The focus of our Goa trip plans is to give tourists an experience that is both c
 
     title:
       "Rajasthan Tour Packages",
-    categories: ["Indian Honeymoon","Domestic Holidays"],
+    categories: ["Indian Honeymoon", "Domestic Holidays"],
     authorAvatar: "/images/Logo/risezoniclogo.png",
 
     readingTime: "14 min read",
@@ -1405,7 +1404,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/srilanka/Sri lanka Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1425,7 +1424,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
       subtitle:
         "Take a trip through coastline and culture.....",
       coverImage:
-        "",
+        "/Package/srilanka/Sri lanka Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1454,9 +1453,9 @@ Here are some facts for travelers to consider before making the trip to Singapor
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/srilanka/Srilanka Image 1 (250x200).jpg.jpeg",
+      "/Package/srilanka/Srilanka Image 2 (250x200).jpg.jpeg",
+      "/Package/srilanka/Srilanka Image 3. (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1579,5 +1578,677 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
       }
     ]
   },
+
+  {
+    id: 16,
+    slug: "spiti-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/spiti-tour-packages",
+
+    title:
+      "Spiti Tour Packages – Experience the Unblemished Flanks of the Himalayas",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to the Spiti valley for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Spiti Tour Packages – Experience the Unblemished Flanks of the Himalayas",
+      subtitle:
+        "Discover the pristine beauty of Spiti Valley",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+      <h2 class="text-2xl font-bold mb-4">Searching for an adventurous mountain trip?</h2>
+      <p class="mt-5">
+      Look no further and take a trip to the Spiti valley for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts. Spiti valley is a cold desert valley in the upper part of the northern Indian Himalayas in Himachal Pradesh. You can explore the marvelous and ancient monasteries and stupas. The valley is rich in historical and cultural legacy. It also has a national park as well as a wildlife sanctuary. Pin national park in Kibber is home to numerous wild animals and even Snow leopards in winter.
+      </p>
+      <p class="mt-5">
+      You can also go trekking and skiing in Kibber village. The most important place in your whole Spiti trip will be Kaza as it the central point and the gateway to most places in the valley and is also the best place for stargazing and should not be missed. Enjoy the magnificent view of the Nako village of the Kinner Kailash peaks. With many more stunning mountain monasteries, serene lakes, and splendid landscapes, this is sure to be an unforgettable trip to the Spiti valley.
+
+      </p>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 17,
+    slug: "meghalaya-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/meghalaya-tour-packages",
+
+    title:
+      "Meghalaya Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Meghalaya for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Meghalaya Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+      subtitle:
+        "Discover the pristine beauty of Meghalaya",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+     
+      <p class="mt-5">
+      Located in the north-east of India, tucked amidst the clouds with some of the most breathtaking unspoiled scenarios. Get ready to experience for yourself the “Abode of Clouds”, Meghalaya. Only when you experience a Meghalaya trip right firsthand, will you understand that there is more to these packages than there is to be seen.
+      </p>
+      <p class="mt-5">
+      You can also go trekking and skiing in Kibber village. The most important place in your whole Spiti trip will be Kaza as it the central point and the gateway to most places in the valley and is also the best place for stargazing and should not be missed. Enjoy the magnificent view of the Nako village of the Kinner Kailash peaks. With many more stunning mountain monasteries, serene lakes, and splendid landscapes, this is sure to be an unforgettable trip to the Spiti valley.
+      </p>
+      <p class="mt-5">
+      It will be completely worth your while to experience each breathtaking attraction, upon one exciting wonder after the other. You will traverse this amazing country to see the Living Root Bridges, take in the Cherrapunji waterfalls, and have an unforgettable experience the Dawki River, as you will simply have to sit back and relax as you traverse its unpolluted and transparent waters. Last, but not least, don’t miss the spirit of Shillong and the experience of experiencing the incredible Mawlynnong, the cleanest village in Asia.
+      </p>
+      <p class="mt-5">
+      JustWravel creates Meghalaya tour packages for romantic honeymoons, exciting adventures with friends, and finally, a family trip. Our JustWravel Meghalaya packages are designed for your ultimate comfort and come with a tailored plan to achieve that.
+      </p>
+      <p class="mt-5">
+      Are you ready? Experience the magic of Meghalaya and get ready to create some unforgettable memories!
+      </p>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 18,
+    slug: "tamil-nadu-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/tamil-nadu-tour-packages",
+
+    title:
+      "Tamil Nadu Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Meghalaya for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Meghalaya Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+      subtitle:
+        "Discover the pristine beauty of Meghalaya",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `<p class="mt-5">
+      Tamil Nadu is an amazing holiday destination in India, for those who want a little, or a lot, of everything. Tamil Nadu tour packages offer the opportunity to experience a combination of spirituality, nature, culture and history. These packages make Tamil Nadu the perfect holiday destination for all, from family travelers to honeymooners, seekers to experiences.
+      </p>
+      <p class="mt-5">
+      At JustWravel, we offer something different to our travelers. Not everyone explores in the same way, so we will not be offering everyone the same Tamil Nadu travel packages. Instead, we will help you find the best package based on where you want to travel, when, where you want to stay and how quickly you want to travel. There will be no need to choose between packages with definitive departures and schedules, you will be able to fully explore the state at your own pace.
+
+      </p>
+      <p class="mt-5">
+      Our holiday packages in Tamil Nadu cover more than 13 destinations, from the hill stations of Ooty, Kodaikanal and Coonoor, to some of the major Temple towns of Madurai and Rameswaram. We will help you travel to all of these with daily transfers, and organize stays in the best hotels. You will have 24/7 travel assistance while planning your multi-destination holiday.
+      
+      </p>
+      <h2 class="mt-5 font-semibold text-xl">A glimpse at Tamil Nadu Tourism</h2>
+     <ul class="pl-6 mt-5 list-disc">
+     <li><b>Destinations:</b> Ooty, Kodaikanal, Madurai, Rameswaram, Chennai, Mahabalipuram, Kanyakumari, and Thanjavur.</li>
+     <li><b>Traveler Type:</b> Family, Honeymoon, Cultural, Customized.</li>
+     <li><b>Recommended Length of Stay:</b> 4 - 8 days.</li>
+     <li><b>When to Go:</b> November - February to see the temples and for sightseeing. March - June for quiet holidays at the hill stations.</li>
+     <li><b>What to Do:</b> Temple visits, walks, sightseeing, culinary tours, train rides and an exploration of the culture.</li>
+     <li><b>Major Airports:</b> Chennai International (MAA), Coimbatore (CJB), Madurai International (IXM), and Tiruchirappalli International (TRZ)</li>
+     <li><b>Popular Hill Stations:</b> Ooty, Kodaikanal, Yercaud, Coonoor, Yelagiri, and Valparai</li>
+     <li><b>Famed For:</b> Dravidian temples, hill scapes, beaches, rich culture, and heritage South Indian food</li>
+     </ul>
+
+     <p class="mt-5">
+     We have something for all kinds of travellers wanting to experience different aspects of Tamil Nadu from at least one of our many curated tour packages. Find your perfect getaway now!
+     </p>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 19,
+    slug: "maharashtra-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/maharashtra-tour-packages",
+
+    title:
+      "Maharashtra Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Maharashtra for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Maharashtra Tour Packages – Discover the Enchanting Beauty of the East Kingdom",
+      subtitle:
+        "Discover the pristine beauty of Maharashtra",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `<p class="mt-5">
+ Maharashtra is a destination with a varied mixture where one can find UNESCO World Heritage Sites, enlightening Jyotirlingas, misty hill stations, nature reserves, and the picturesque Konkan coast. Introducing trekking adventures with sunset views from the meandering hills of Mahabaleshwar, exploration of ancient caves in Ajanta-Ellora, vineyards, and the rich forests of Tadoba, Maharashtra offers different adventures at every turn.
+      </p>
+      <p class="mt-5">
+  Maharashtra meets the needs and interests of every traveler with heritage tours and Jyotirlinga pilgrimages, monsoon, wildlife, beach, and adventure trips. At JustWravel, we help you create uncommon experiences by tailoring Maharashtra tour packages to include some of the most visited places along with some less known places to help you tour the state at your desired pace.
+
+      </p>
+      <p class="mt-5">
+     
+Our Maharashtra tour packages welcome families, couples, honeymooners, solo adventurers, and pilgrims. In comparison to fixed group tours, our itineraries offer a lot of choice when it comes to the destinations, stay, and experiences. One can relax in Alibaug, take a heritage Ajanta-Ellora trail, or do a scenic drive on Malshej Ghat. Our Maharashtra tour packages have everything arranged from stay to transport along with local expertise and 24 hour travel assistance.
+      </p>
+
+      <h2 class="mt-5 font-semibold text-xl">Maharashtra At A Glance</h2>
+     <ul class="pl-6 mt-5 list-disc">
+     <li><b>Capital City:</b> Mumbai</li>
+     <li><b>Best Known For:</b> There are Hill Stations, Beaches, Forts, and Pilgrimage Sites in Maharashtra. It also has Heritage Caves and Wildlife.</li>
+     <li><b>Top Destinations:</b> Mumbai, Mahabaleshwar, Lonavala, Shirdi, Nashik, Alibaug, Aurangabad & Konkan Coast</li>
+     <li><b>UNESCO Heritage Sites:</b> Ajanta Caves, Ellora Caves, Elephanta Caves & Chhatrapati Shivaji Maharaj Terminus</li>
+     <li><b>Jyotirlingas in Maharashtra:</b> Grishneshwar, Aundha Nagnath, Bhimashankar, Trimbakeshwar, and Parli Vaijnath</li>
+     <li><b>Best Time to Visit:</b> Visit between October and February.</li>
+     <li><b>Ideal Trip Duration:</b> Take 5 to 10 days.</li>
+     <li><b>Perfect For:</b> You can plan your trip as a family, with your partner, for your honeymoon, as a pilgrimage, solo, etc.</li>
+     <li><b>Popular Experiences:</b> You enjoy Forts? Temples? Go on a Safari? See Vineyards? Go Trekking? Go to the Beach?</li>
+     <li><b>Famous Hill Stations:</b> Mahabaleshwar, Panchgani, Lonavala, Matheran & Igatpuri</li>
+     </ul>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 20,
+    slug: "arunachal-pradesh-tour-packages",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/arunachal-pradesh-tour-packages",
+
+    title:
+      "Packages for Travelling to Arunachal Pradesh",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Arunachal Pradesh for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Packages for Travelling to Arunachal Pradesh",
+      subtitle:
+        "Discover the pristine beauty of Arunachal Pradesh",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+      <h2 class="mt-4 font-semibold text-xl">Finally, you get to see where India meets the Sky!</h2>
+      <p class="mt-5">
+ They say the sun rises first in Arunachal and when you see it light up the mountains of Tawang with gold, you'll believe it.
+      </p>
+      <p class="mt-5">
+Along winding mountain roads, you'll find clouds rolling down next to you and postcard views at every turn. In Ziro Valley, try the welcoming smiles of tatooed tribal women, while bamboo huts give you a glimpse of their past. You'll hear the chants of monks at ancient monasteries, cross Sela Pass where the wind strikes prayer flags, and drink tea in the quaint town of Dirang. You'll find yourself in the wild and silent Mechuka with postcards views of the night sky, where you can really appreciate nature as it was meant to be.
+
+      </p>
+
+      <h2 class="mt-5 font-semibold text-xl">Know Arunachal with JustWravel</h2>
+     <ul class="pl-6 mt-5 list-disc">
+     <li><b>Best time to visit:</b> March to May (Spring-Summer), October to February (Autumn-Winter), June to September (Monsoon)</li>
+     <li><b>Top Places to Visit:</b> Tawang: Beautiful monastery and scenic landscapes, War memorial</li>
+     <li><b>Sela Pass:</b> Snow-covered pass, frozen lakes, mountain views</li>
+     <li><b>Bomdila:</b> Monastery, Local market, Himalayan views</li>
+     <li><b>Food to eat:</b> Momos, Thukpa, Lukter, Zan, Bamboo shoot curry</li>
+     </ul>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 21,
+    slug: "sikkim-tour-packages-customized-holiday-trips",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/sikkim-tour-packages-customized-holiday-trips",
+
+    title:
+      "Sikkim Tour Packages - Customized Holiday Trips",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Sikkim for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Sikkim Tour Packages - Customized Holiday Trips",
+      subtitle:
+        "Discover the pristine beauty of Sikkim",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+     <p class="mt-5">
+     A land of peace and a blessed region of paradise and known in mythology as Indrakil (the garden of the god Indra). A place of mountains, rivers and valleys, full of adventures and magic. Yes, we are talking about Sikkim, the only brother to the seven sisters of the Northeast.
+     </p>
+     <p class="mt-5">
+     Sikkim is a Himalayan region that unifies snow capped peaks and verdant valleys. Old temples and monasteries dot the landscape and chant tranquil prayers. Our Sikkim tour packages help you explore this magical place. Every one of our packages is for you and the way you love to travel.
+     </p>
+     <p class="mt-5">
+     You can visit North Sikkim's Gurudongmar Lake, the East Sikkim Gangtok, the West Sikkim Pelling or the South Sikkim Namchi. Sikkim has diversity and adventure packed in its each nook and corner. Our tailor made Sikkim tour packages bring you adventure, nature and most importantly, peace. We also give you the best experiences and stay, everywhere you go.
+     </p>
+     <p class="mt-5">
+     Let Sikkim show you its magic- the way you imagined.
+     </p>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
+  {
+    id: 22,
+    slug: "karnataka-tour-packages-customized-holiday-trips",
+    metatitle:
+      "",
+    metadescription:
+      "",
+    canonical:
+      "https://www.risezonictravel.com/package/karnataka-tour-packages-customized-holiday-trips",
+
+    title:
+      "Karnataka Tour Packages - Customized Holiday Trips",
+    categories: ["Domestic Holidays"],
+    authorAvatar: "/images/Logo/risezoniclogo.png",
+
+    readingTime: "14 min read",
+    views: 1000,
+    likes: 274,
+    popularScore: 96 * 2 + 1654,
+
+    image: "",
+    pdf: "",
+
+    tags: [
+      "Travel Agency",
+      "Holiday Packages",
+      "International Tours",
+      "Domestic Tours",
+      "Customized Travel",
+    ],
+
+    excerpt:
+      "Look no further and take a trip to Karnataka for an experience of a lifetime. This is ideal for nature lovers as well as adventure enthusiasts.",
+    relatedPosts: [2, 3],
+
+    hero: {
+      title: "Karnataka Tour Packages - Customized Holiday Trips",
+      subtitle:
+        "Discover the pristine beauty of Karnataka",
+      coverImage:
+        "",
+      rating: 4.9,
+      reviews: 120,
+    },
+
+    price: 0,
+
+    overview:
+      `
+     <p class="mt-5">
+   Karnataka has a little something for every type of traveler, from culture and history, to Java and connecting bridges, Karnataka has it all to offer with UNESCO World Heritage Sites, modern metropolises, verdant hill stations and plantations, wildlife and scenic beaches. Karnataka will ensure you never forget your holiday with a pastich of experiences.
+     </p>
+     <p class="mt-5">
+   Whether its coasts, history, and heritage culture, wildlife, or coffee and plantations, we have you covered. Just choose your preferences as we are flexible with no set itineraries. When it comes to type of travel you prefer, duration and budget also play a role, hence we will create the perfect Karnataka tour just for you.
+
+     </p>
+     <p class="mt-5">
+   Karnataka Tourism: A Quick Look
+     </p>
+     <p class="mt-5">
+    Here are a few important things to know before planning a trip to Karnataka.
+     </p>
+     <p class="mt-5">
+     (Location: Southwestern India with an extended coastline of 320 kilometers on the Arabian Sea)
+     </p>
+     <p class="mt-5">
+     (Famous For: Bengaluru (the Silicon Valley of India), UNESCO World Heritage Sites, coffee plantations, wildlife safaris, hill stations, beaches, and an abundance of culture)
+     </p>
+     <p class="mt-5">
+     (Best Time to Visit: October to March. The monsoon season, from June to September, is perfect for waterfalls and lush landscapes.)
+     </p>
+     <p class="mt-5"> 
+     (Ideal Trip Duration: 5 - 7 days)
+     </p>
+     <p class="mt-5">
+     (Top Destinations: Mysore, Hampi, Coorg, Chikmagalur, Badami, Kabini, Gokarna, Udupi, Murudeshwar)
+     </p>
+     <p class="mt-5">
+     (Popular Activities: Exploring the UNESCO Hampi ruins, enjoying Kabini wildlife safaris, visiting Mysore Palace, and relaxing on beaches in Gokarna as well as touring the coffee estates of Coorg and Chikmagalur.)
+     </p>
+     <p class="mt-5">
+     (Suitable For: All age groups)
+     </p>
+     <p class="mt-5">
+     (Gateways (Entry Points): Bengaluru, Mangaluru or Hubli)
+     </p>
+      
+        `,
+
+    gallery: [
+      "",
+      "",
+      ""
+    ],
+
+    reviews: [
+      {
+        name: "Sarah Jenkins",
+        rating: 5,
+        date: "3 days ago",
+        tag: "Amazing Experience",
+        text: "..."
+      },
+      {
+        name: "Gaurav Rawat",
+        rating: 4,
+        date: "3 days ago",
+        tag: "Very Good Experience",
+        text: "Lost in the breathtaking views of Himachal, where mountains touch the sky and peace surrounds the soul.Nature’s beauty feels magical in every corner of these valleys."
+      }
+    ]
+  },
+
 
 ]
