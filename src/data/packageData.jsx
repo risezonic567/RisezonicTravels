@@ -1319,7 +1319,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/bhutan/Bhutan Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1339,7 +1339,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
       subtitle:
         "Exhilarating isn't it? What could be better than a quick getaway to the happiest country on the planet?.....",
       coverImage:
-        "",
+        "/Package/bhutan/Bhutan Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1361,9 +1361,9 @@ Here are some facts for travelers to consider before making the trip to Singapor
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/bhutan/Bhutan Image 1 (250x200).jpg.jpeg",
+      "/Package/bhutan/Bhutan Image 2 (250x200).jpg.jpeg",
+      "/Package/bhutan/Bhutan Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1496,7 +1496,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/malaysia/Malaysia Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1516,7 +1516,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
       subtitle:
         "Impressive skylines? Rainforests? Delicious food?.....",
       coverImage:
-        "",
+        "/Package/malaysia/Malaysia Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1556,9 +1556,9 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/malaysia/Malaysia Image 1 (250x200).jpg.jpeg",
+      "/Package/malaysia/Malaysia Image 2 (250x200).jpg.jpeg",
+      "/Package/malaysia/Malaysia Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1599,7 +1599,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/spiti/Spiti Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1619,7 +1619,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
       subtitle:
         "Discover the pristine beauty of Spiti Valley",
       coverImage:
-        "",
+        "/Package/spiti/Spiti Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1640,9 +1640,9 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/spiti/Spiti Image 1 (250x200).jpg.jpeg",
+      "/Package/spiti/Spiti Image 1 (250x200).jpg.jpeg",
+      "/Package/spiti/Spiti Image 1 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1683,7 +1683,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/Meghalay/Meghalaya Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1703,7 +1703,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
       subtitle:
         "Discover the pristine beauty of Meghalaya",
       coverImage:
-        "",
+        "/Package/Meghalay/Meghalaya Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1732,9 +1732,9 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/Meghalay/Meghalaya Image 1 (250x200).jpg.jpeg",
+      "/Package/Meghalay/Meghalaya Image 2 (250x200).jpg.jpeg",
+      "/Package/Meghalay/Meghalaya Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1775,7 +1775,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/Tamilnadu/Tamil Nadu Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1795,7 +1795,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
       subtitle:
         "Discover the pristine beauty of Meghalaya",
       coverImage:
-        "",
+        "/Package/Tamilnadu/Tamil Nadu Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1833,9 +1833,9 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/Tamilnadu/Tamil Nadu Image 1 (250x200).jpg.jpeg",
+      "/Package/Tamilnadu/Tamil Nadu Image 2 (250x200).jpg.jpeg",
+      "/Package/Tamilnadu/Tamil Nadu Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -2250,5 +2250,6 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
     ]
   },
 
+  
 
 ]
