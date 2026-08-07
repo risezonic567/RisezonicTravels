@@ -1876,7 +1876,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/maharastra/Maharashtra Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1896,7 +1896,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
       subtitle:
         "Discover the pristine beauty of Maharashtra",
       coverImage:
-        "",
+        "/Package/maharastra/Maharashtra Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -1933,9 +1933,9 @@ Our Maharashtra tour packages welcome families, couples, honeymooners, solo adve
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/maharastra/Maharashtra Image 1 (250x200).jpg.jpeg",
+      "/Package/maharastra/Maharashtra Image 2 (250x200).jpg.jpeg",
+      "/Package/maharastra/Maharashtra Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -1976,7 +1976,7 @@ Our Maharashtra tour packages welcome families, couples, honeymooners, solo adve
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/arunachal/Arunachal Pradesh Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -1996,7 +1996,7 @@ Our Maharashtra tour packages welcome families, couples, honeymooners, solo adve
       subtitle:
         "Discover the pristine beauty of Arunachal Pradesh",
       coverImage:
-        "",
+        "/Package/arunachal/Arunachal Pradesh Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -2026,9 +2026,9 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/arunachal/Arunachal Pradesh Image 1 (250x200).jpg.jpeg",
+      "/Package/arunachal/Arunachal Pradesh Image 2 (250x200).jpg.jpeg",
+      "/Package/arunachal/Arunachal Pradesh Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -2069,7 +2069,7 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/sikkim/Sikkim Banner Image (750x380).jpg.jpeg",
     pdf: "",
 
     tags: [
@@ -2089,7 +2089,7 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
       subtitle:
         "Discover the pristine beauty of Sikkim",
       coverImage:
-        "",
+        "/Package/sikkim/Sikkim Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -2114,9 +2114,9 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/sikkim/Sikkim Image 1 (250x200).jpg.jpeg",
+      "/Package/sikkim/Sikkim Image 2 (250x200).jpg.jpeg",
+      "/Package/sikkim/Sikkim Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
@@ -2157,7 +2157,7 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
     likes: 274,
     popularScore: 96 * 2 + 1654,
 
-    image: "",
+    image: "/Package/karnataka/Karnataka Banner Image (750x380).jpg.jpeg",
     pdf: "/pdf/Karnataka Domestic Guide.pdf.pdf",
 
     tags: [
@@ -2177,7 +2177,7 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
       subtitle:
         "Discover the pristine beauty of Karnataka",
       coverImage:
-        "",
+        "/Package/karnataka/Karnataka Banner Image (750x380).jpg.jpeg",
       rating: 4.9,
       reviews: 120,
     },
@@ -2227,9 +2227,9 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
         `,
 
     gallery: [
-      "",
-      "",
-      ""
+      "/Package/karnataka/Karnataka Image 1 (250x200).jpg.jpeg",
+      "/Package/karnataka/Karnataka Image 2 (250x200).jpg.jpeg",
+      "/Package/karnataka/Karnataka Image 3 (250x200).jpg.jpeg"
     ],
 
     reviews: [
