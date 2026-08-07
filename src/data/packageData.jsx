@@ -1320,7 +1320,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     popularScore: 96 * 2 + 1654,
 
     image: "/Package/bhutan/Bhutan Banner Image (750x380).jpg.jpeg",
-    pdf: "",
+    pdf: "/pdf/Bhutan Travel Guide.pdf.pdf",
 
     tags: [
       "Travel Agency",
@@ -1405,7 +1405,7 @@ Here are some facts for travelers to consider before making the trip to Singapor
     popularScore: 96 * 2 + 1654,
 
     image: "/Package/srilanka/Sri lanka Banner Image (750x380).jpg.jpeg",
-    pdf: "",
+    pdf: "/pdf/Sri Lanka Guide.pdf.pdf",
 
     tags: [
       "Travel Agency",
@@ -1684,7 +1684,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     popularScore: 96 * 2 + 1654,
 
     image: "/Package/Meghalay/Meghalaya Banner Image (750x380).jpg.jpeg",
-    pdf: "",
+    pdf: "/pdf/Domestic Meghalaya Guide.pdf.pdf",
 
     tags: [
       "Travel Agency",
@@ -1776,7 +1776,7 @@ Ideal Trip Duration: 4 - 8 days (Kuala Lumpur, Genting Highlands, Langkawi). Cov
     popularScore: 96 * 2 + 1654,
 
     image: "/Package/Tamilnadu/Tamil Nadu Banner Image (750x380).jpg.jpeg",
-    pdf: "",
+    pdf: "/pdf/Tamil Nadu Guide.pdf.pdf",
 
     tags: [
       "Travel Agency",
@@ -2158,7 +2158,7 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
     popularScore: 96 * 2 + 1654,
 
     image: "",
-    pdf: "",
+    pdf: "/pdf/Karnataka Domestic Guide.pdf.pdf",
 
     tags: [
       "Travel Agency",
@@ -2250,6 +2250,6 @@ Along winding mountain roads, you'll find clouds rolling down next to you and po
     ]
   },
 
-  
+
 
 ]
